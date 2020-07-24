@@ -42,7 +42,7 @@ function validateform(){
             document.getElementById('mobileID').style.color="red";
             return false;
         }
-        if(mobile.length< 10||!mobile.match(mobileformat)){
+        if(mobile.length!=10 || !mobile.match(mobileformat)){
     
             document.getElementById('mobileID').innerHTML="* Please Enter A Valid Mobile Number *";
             document.getElementById('mobileID').style.color="red";
