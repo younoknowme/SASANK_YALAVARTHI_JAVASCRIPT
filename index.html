@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name = "viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel = "stylesheet" type = "text/css" href = "./cSS/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Work+Sans:ital,wght@0,100;1,100&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Noto+Sans&family=Raleway:wght@100&family=Work+Sans:ital,wght@0,100;1,100&display=swap" rel="stylesheet"> 
+		<title>EPAM | Sign-in</title>
+		<script src = "script.js"> </script>
+	</head>
+	<body>
+		
+		<div class = "back" >
+				<div class = "centerblock">
+					<h2> Sign In </h2>
+					<form  method="POST" action = "thankyou.html"  onsubmit="return validateform()" name = "myform" >
+						<div class = "namebox">
+							<input type = "text" id = "nameIDText" name = "name" class = "inputbox1" placeholder="Mail@example.com">
+							<span id = "nameID"> </span>
+						</div>
+						<br>
+						<div>
+							<input type = "password" id = "passwordIDText" name = "password" class = "inputbox2" placeholder="Password">
+							<span id = "passwordID"> </span>
+						</div>
+						<br>
+						<div>
+							<input type = "text"  id =  "mobileIDText" name = "mobile" class = "inputbox3" placeholder="Mobile Number" >
+							<span id = "mobileID"> </span>
+						</div>
+						<br>	
+						<div>
+							<input type = "text" id = "dateIDText" name = "date" class = "inputbox4"  placeholder="DD/MM/YYYY">
+							<span id = "dateID"> </span>
+						</div>
+						<br>
+						<div>
+							<input type = "submit" value = "REGISTER">
+						</div>
+						<br>
+						<div>
+							<input type = "submit" value = "< EPAM LOGIN >">
+						</div>
+					</form>
+						 
+					 <br>
+				       
+				</div>
+			</div>
+	</body>
+</html>
